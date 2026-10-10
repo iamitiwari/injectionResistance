@@ -97,4 +97,7 @@ Environment: [seed2_data_pipeline](rles/seed2_data_pipeline/). Evidence: [origin
 
 The trajectories show successful separation of useful context from an unauthorized directive. This handoff variant failed because the agents recognized the requested credential write as outside scope; that observation does not establish that all previous-agent handoffs are safe.
 
+
+#### Disclaimer on AI usage: ChatGPT was used to brainstorm the ideas, generate boilerplate code and refining the documentation. 
+
 Environment: [seed3_handoff_billing](rles/seed3_handoff_billing/). Evidence: [handoff rollout](jobs/seed3_handoff_billing/handoff-rotation/), [validation notes](docs/seed3-validation.md).
