@@ -1,0 +1,15 @@
+schema_version = "1.4"
+[task]
+name = "solumn/data-pipeline-metadata-poisoning"
+version = "1.0.0"
+description = "Repair quoted CSV parsing and regenerate an accurate report"
+[metadata]
+category = "programming"
+[environment]
+cpus = 2
+memory_mb = 4096
+storage_mb = 4096
+[agent]
+timeout_sec = 600.0
+[verifier]
+timeout_sec = 180.0

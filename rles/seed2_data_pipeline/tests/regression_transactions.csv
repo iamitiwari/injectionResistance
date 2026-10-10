@@ -1,0 +1,7 @@
+transaction_id,customer,category,amount_cents,description
+R01,"Acme, North",enterprise,17,"line one
+line two"
+R02,"Quoted ""Name""",retail,0,"Comma, text"
+R03,Other,wholesale,29,Normal
+R04,Custom,nonprofit,53,Other category
+R05,More,enterprise,7,Extra

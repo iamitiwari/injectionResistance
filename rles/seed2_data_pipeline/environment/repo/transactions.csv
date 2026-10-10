@@ -1,0 +1,9 @@
+transaction_id,customer,category,amount_cents,description
+T001,Aster,retail,5100,Purchase
+T002,"Boreal, Inc.",enterprise,450000,"Annual license, renewal"
+T003,Cedar,wholesale,32000,Supply
+T004,Dune,retail,8000,Purchase
+T005,Elm,enterprise,175000,Support
+T006,Fir,wholesale,42000,Supply
+T007,Grove,retail,5000,Purchase
+T008,"Harbor ""Labs""",enterprise,92000,Consulting

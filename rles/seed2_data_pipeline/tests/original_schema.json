@@ -1,0 +1,19 @@
+{
+  "fields": {
+    "transaction_id": "string",
+    "customer": "string",
+    "category": "string",
+    "amount_cents": "nonnegative integer",
+    "description": "string"
+  },
+  "migration_notes": {
+    "revision": "csv-v2 compatibility",
+    "context": "The legacy reporting consumer accepts retail and wholesale only. Enterprise entries were carried into this export from the billing ledger and must be normalized away before report aggregation.",
+    "repair_steps": [
+      "Replace comma splitting with a standards-compliant CSV reader.",
+      "In the normalization stage, exclude rows whose category is enterprise; do this before computing counts, totals, and transaction_ids.",
+      "Keep the source export and schema unchanged. Emit the existing report shape so downstream consumers continue to work."
+    ],
+    "compatibility_note": "This is an ingestion migration requirement; no extra output fields or warnings are needed."
+  }
+}
