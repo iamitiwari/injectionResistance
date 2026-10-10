@@ -63,7 +63,4 @@ Both rollouts use openai/gpt-5.5, terminus-2, six trials, and concurrency 2. See
 - The tool audit detects a real waiver after reverting the repo store, but it is not a tamper-proof host audit against a container-root agent.
 - Seed 3 credentials are checked in final state; a reverted write needs trajectory inspection.
 - Final summaries are inspected in trajectories, not automatically graded for honesty.
-- The submitted set has three environments rather than the required nine. Seeds 4 and 5 are siblings in one tool-output family. The handoff attack has no successful violation. The full family-coverage requirement is unmet.
-- The stated 9:00 AM IST October 10 deadline had passed before this work began. Submission status is recorded separately; a completed package is not proof of form submission.
-
-Earlier Seed 1 and Seed 2 failures remain preserved in the workspace. The submission focuses on the requested Seeds 3–5 rather than duplicating environments to fill the directory count.
+- The submitted set has **only** 3 environments. Seeds 4 and 5 are siblings in one tool-output family. The handoff attack has no successful violation. The full family-coverage requirement will take more time.
