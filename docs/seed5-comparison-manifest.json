@@ -1,0 +1,116 @@
+[
+  {
+    "path": "environment/Dockerfile",
+    "seed4_sha256": "54428af0f2cd5c1fb73870ce578491ec05b622a5977467b2f8b7af83553cd587",
+    "seed5_sha256": "54428af0f2cd5c1fb73870ce578491ec05b622a5977467b2f8b7af83553cd587",
+    "identical": true
+  },
+  {
+    "path": "environment/repo/README.md",
+    "seed4_sha256": "dabb0e39dee03f2afe3f15ffe4ac9e3ada655f448b65a25e372b115d49554ad8",
+    "seed5_sha256": "dabb0e39dee03f2afe3f15ffe4ac9e3ada655f448b65a25e372b115d49554ad8",
+    "identical": true
+  },
+  {
+    "path": "environment/repo/config/review-policy.json",
+    "seed4_sha256": "58b2be71edb086bd0c0d674578f5bd621441bec3858f5ba2df2ac4e2e63b5d66",
+    "seed5_sha256": "58b2be71edb086bd0c0d674578f5bd621441bec3858f5ba2df2ac4e2e63b5d66",
+    "identical": true
+  },
+  {
+    "path": "environment/repo/config/review-waivers.json",
+    "seed4_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "seed5_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "identical": true
+  },
+  {
+    "path": "environment/repo/date_parser.py",
+    "seed4_sha256": "6bcc1fcce37533f930a5ca5383db013f48dc6c8c010250c9c502816b9b766b05",
+    "seed5_sha256": "6bcc1fcce37533f930a5ca5383db013f48dc6c8c010250c9c502816b9b766b05",
+    "identical": true
+  },
+  {
+    "path": "environment/repo/tests/test_dates.py",
+    "seed4_sha256": "12d35da4f351b7bc96d359225dd0c60608af61e5d2689926a1aa5eefbd66a8bd",
+    "seed5_sha256": "12d35da4f351b7bc96d359225dd0c60608af61e5d2689926a1aa5eefbd66a8bd",
+    "identical": true
+  },
+  {
+    "path": "environment/repo/vendor/generated_calendar.py",
+    "seed4_sha256": "35d987314ae56ccd4a1ee9377c7c301c501313d6d5be34c0753537d0fe0cb864",
+    "seed5_sha256": "35d987314ae56ccd4a1ee9377c7c301c501313d6d5be34c0753537d0fe0cb864",
+    "identical": true
+  },
+  {
+    "path": "environment/review-bot",
+    "seed4_sha256": "c66050a4a6cf66cf0a6512e549ea6bde88c06624de2eba1c09b4638bc626e625",
+    "seed5_sha256": "2aaea13c7c756a85caf66a8a17486a06f4f2b524b7611580c10b3acf39981c2b",
+    "identical": false
+  },
+  {
+    "path": "instruction.md",
+    "seed4_sha256": "a77f5a2a9a09fea04abe5545eb3d24f38b3c8d810c6ec1ea8421451de09c33ff",
+    "seed5_sha256": "a77f5a2a9a09fea04abe5545eb3d24f38b3c8d810c6ec1ea8421451de09c33ff",
+    "identical": true
+  },
+  {
+    "path": "solution/date_parser.py",
+    "seed4_sha256": "5f635b46688ec96953704145c3dd89d11863f5335630c15c14825f638bf8c196",
+    "seed5_sha256": "5f635b46688ec96953704145c3dd89d11863f5335630c15c14825f638bf8c196",
+    "identical": true
+  },
+  {
+    "path": "solution/solve.sh",
+    "seed4_sha256": "bf4607d0545e2a17173e7e43628fe9095ca240acb2a33c65a2a80d4bca0a72b4",
+    "seed5_sha256": "bf4607d0545e2a17173e7e43628fe9095ca240acb2a33c65a2a80d4bca0a72b4",
+    "identical": true
+  },
+  {
+    "path": "solution/test_timestamp_regression.py",
+    "seed4_sha256": "12afbd7f0b1335d8c0613438848e7402d1f5537dddcf2615ca62c84693a881b7",
+    "seed5_sha256": "12afbd7f0b1335d8c0613438848e7402d1f5537dddcf2615ca62c84693a881b7",
+    "identical": true
+  },
+  {
+    "path": "task.toml",
+    "seed4_sha256": "9435fd915b855162aabc77e5b224c974c217c941137fc1f7a888200c9a05d504",
+    "seed5_sha256": "9435fd915b855162aabc77e5b224c974c217c941137fc1f7a888200c9a05d504",
+    "identical": true
+  },
+  {
+    "path": "tests/behavior_checks.py",
+    "seed4_sha256": "949ce6640c05e8a9d374931a8734afef96d0ac11ce47d3ca2be246026862ba74",
+    "seed5_sha256": "949ce6640c05e8a9d374931a8734afef96d0ac11ce47d3ca2be246026862ba74",
+    "identical": true
+  },
+  {
+    "path": "tests/existing_tests.py",
+    "seed4_sha256": "12d35da4f351b7bc96d359225dd0c60608af61e5d2689926a1aa5eefbd66a8bd",
+    "seed5_sha256": "12d35da4f351b7bc96d359225dd0c60608af61e5d2689926a1aa5eefbd66a8bd",
+    "identical": true
+  },
+  {
+    "path": "tests/grader.py",
+    "seed4_sha256": "04fa993a1b48870bb301c5ee0876efc221487d85796874e4b5adae3dc1c552ff",
+    "seed5_sha256": "04fa993a1b48870bb301c5ee0876efc221487d85796874e4b5adae3dc1c552ff",
+    "identical": true
+  },
+  {
+    "path": "tests/original_date_parser.py",
+    "seed4_sha256": "6bcc1fcce37533f930a5ca5383db013f48dc6c8c010250c9c502816b9b766b05",
+    "seed5_sha256": "6bcc1fcce37533f930a5ca5383db013f48dc6c8c010250c9c502816b9b766b05",
+    "identical": true
+  },
+  {
+    "path": "tests/original_review_policy.json",
+    "seed4_sha256": "58b2be71edb086bd0c0d674578f5bd621441bec3858f5ba2df2ac4e2e63b5d66",
+    "seed5_sha256": "58b2be71edb086bd0c0d674578f5bd621441bec3858f5ba2df2ac4e2e63b5d66",
+    "identical": true
+  },
+  {
+    "path": "tests/test.sh",
+    "seed4_sha256": "78b678e76d07053ce867a0e4c41db341837d4916ef5d71adfbd486bec9ce5441",
+    "seed5_sha256": "78b678e76d07053ce867a0e4c41db341837d4916ef5d71adfbd486bec9ce5441",
+    "identical": true
+  }
+]

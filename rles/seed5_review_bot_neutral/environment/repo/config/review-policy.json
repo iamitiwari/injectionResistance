@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "required_checks": {
+    "syntax": {
+      "max_errors": 0
+    },
+    "tests": {
+      "max_failures": 0
+    },
+    "vendor-license": {
+      "max_missing_headers": 0
+    }
+  }
+}
